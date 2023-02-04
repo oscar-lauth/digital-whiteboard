@@ -24,7 +24,7 @@ def capture_img(roi):
     camera.capture(output,'rgb',resize=roi)
     # camera.close()
     return output
-print(capture_img(400,400))
+print(capture_img((400,400)))
 
 # def get_roi():
 
